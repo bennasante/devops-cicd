@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: 127214192562.dkr.ecr.us-west-2.amazonaws.com/bensrepo
+          image: 127214192562.dkr.ecr.us-west-2.amazonaws.com/bensrepo:IMAGE_TAG_PLACEHOLDER
           ports:
             - containerPort: 80
 ---
